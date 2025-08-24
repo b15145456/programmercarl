@@ -30,9 +30,9 @@ BLOG_TITLE="代碼隨想錄算法訓練營第${DAY_CN}天 | ${QUESTIONS//,/、}"
 
 # 開始寫入 README.md
 cat > $DIR/README.md <<EOF
-# $BLOG_TITLE
+## $BLOG_TITLE
 
-## 今日任務
+### 今日任務
 - 主題：$TOPIC
 - 學習文章：(請貼上)
 
@@ -50,19 +50,19 @@ for PROBLEM in "${PROBLEMS[@]}"; do
 - [文章講解]()
 - [影片講解]()
 
-### 思路
+#### 思路
 - (請填寫)
 
-### 程式碼
+#### 程式碼
 ```cpp
 // 請填寫
 ```
 
-### 複雜度分析
+#### 複雜度分析
 Time Complexity: O( ) due to ...
 Space Complexity: O( ) due to ...
 
-### 心得
+#### 心得
 - (請填寫)
 
 EOP

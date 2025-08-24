@@ -15,3 +15,7 @@
 - [Day 02](./day02/README.md) - Valid Parentheses
 - Day 03 - 待完成
 - ...
+
+
+### script usage 
+./new_day.sh 3 "Array Part01" "704. Binary Search、27. Remove Element、977. Squares of a Sorted Array"
